@@ -17,6 +17,6 @@ echo "Executing on the machine:" $(hostname)
 
 module purge
 module load anaconda3/2022.10
-conda activate chess_project
+conda activate chess_data
 
 python -u format_data.py

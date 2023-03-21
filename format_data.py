@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 
-directory = "temp"
+directory = "Data_For_Ben"
 
 f = open("data.plain","w")
 

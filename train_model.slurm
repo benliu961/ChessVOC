@@ -15,4 +15,4 @@ module purge
 module load anaconda3/2022.10
 conda activate chess-env
 
-python train.py train_data.binpack val_data.binpack --gpus=1
+python train.py --batch-size 16384 --threads 2 --num-workers 2 --gpus 1 --no-smart-fen-skipping --no-wld-fen-skipping train_data.binpack val_data.binpack

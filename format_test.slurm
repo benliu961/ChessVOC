@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=format_data   # create a short name for your job
+#SBATCH --job-name=format_test   # create a short name for your job
 #SBATCH --output=slurm-%A.%a.out # stdout file
 #SBATCH --error=slurm-%A.%a.err  # stderr file
 #SBATCH --nodes=1                # node count

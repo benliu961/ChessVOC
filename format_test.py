@@ -43,6 +43,6 @@ for filename in os.listdir(directory):
             f.write(str(row["ply"]))
             f.write("\n")
             f.write("result ")
-            f.write(str(row["rt"]))
+            f.write(str(int(row["rt"])))
             f.write("\n")
             f.write("e\n")
